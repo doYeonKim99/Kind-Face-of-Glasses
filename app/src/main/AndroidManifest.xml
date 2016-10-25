@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.pproject" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ikon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppBaseTheme"
+            android:icon="@drawable/ikonkon"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:icon="@drawable/ikon"
+            android:name=".MainActivity"
+            android:label="안경맞게"
+            android:configChanges="keyboardHidden|orientation">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".NbActivity"
+            android:label="각진얼굴"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".SbActivity"
+            android:label="좁은얼굴"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".CirbActivity"
+            android:label="둥근얼굴"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".YsambActivity"
+            android:label="역삼각형"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+</manifest>

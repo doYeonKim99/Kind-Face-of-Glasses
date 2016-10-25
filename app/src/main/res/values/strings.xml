@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">안경맞게</string>
+    <string name="nemo">각진얼굴</string>
+    <string name="tri">역삼각형얼굴</string>
+    <string name="small">좁은얼굴</string>
+    <string name="circle">둥근얼굴</string>
+</resources>
